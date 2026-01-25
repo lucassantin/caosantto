@@ -88,7 +88,7 @@ export const Navbar = () => {
             transition={{ duration: 0.2 }}
             className="fixed inset-x-0 top-16 z-40 md:hidden"
           >
-            <div className="bg-background/98 backdrop-blur-lg shadow-lg border-t border-border mx-4 rounded-b-2xl overflow-hidden">
+            <div className="bg-white shadow-lg border-t border-border mx-4 rounded-b-2xl overflow-hidden">
               <div className="flex flex-col py-4">
                 {siteConfig.navLinks.map((link, index) => (
                   <motion.button
