@@ -52,7 +52,7 @@ export const GalleryStrip = () => {
               align: "start",
               loop: true,
             }}
-            className="w-full"
+            className="w-full relative" 
           >
             <CarouselContent className="-ml-2 md:-ml-4">
               {images.map((img, index) => (
@@ -70,8 +70,10 @@ export const GalleryStrip = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="hidden md:flex -left-4 bg-white/90 hover:bg-white border-border shadow-soft" />
-            <CarouselNext className="hidden md:flex -right-4 bg-white/90 hover:bg-white border-border shadow-soft" />
+            
+            <CarouselPrevious className="flex left-2 md:-left-4 bg-white/90 hover:bg-white border-border shadow-soft z-10" />
+            <CarouselNext className="flex right-2 md:-right-4 bg-white/90 hover:bg-white border-border shadow-soft z-10" />
+            
           </Carousel>
         </motion.div>
       </div>

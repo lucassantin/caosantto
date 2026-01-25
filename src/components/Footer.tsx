@@ -40,11 +40,6 @@ export const Footer = () => {
               transition={{ duration: 0.6 }}
               className="lg:col-span-2"
             >
-              <img
-                src={logo}
-                alt="Cão Santto"
-                className="h-16 w-auto mb-4 brightness-0 invert"
-              />
               <p className="text-background/70 leading-relaxed max-w-sm">
                 Adestramento, hotel educativo e cuidados especializados para 
                 transformar a vida do seu cão com amor e ciência.
@@ -124,7 +119,15 @@ export const Footer = () => {
               © {new Date().getFullYear()} Cão Santto Dog Club. Todos os direitos reservados.
             </p>
             <p className="flex items-center gap-1">
-              Feito com <Heart className="w-4 h-4 text-primary" fill="currentColor" /> em Videira - SC
+              Feito com <Heart className="w-4 h-4 text-primary" fill="currentColor" /> por{" "}
+              <a
+                href="https://wa.me/5548988247011?text=Olá,%20vim%20através%20do%20site%20da%20Cão%20Santto%20e%20tenho%20interesse%20em%20seu%20trabalho!"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-primary transition-colors font-medium"
+              >
+                Lucas Santin
+              </a>
             </p>
           </motion.div>
         </div>

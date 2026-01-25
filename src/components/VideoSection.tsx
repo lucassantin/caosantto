@@ -52,7 +52,7 @@ export const VideoSection = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               className="absolute inset-0 flex items-center justify-center"
-              onClick={() => window.open("https://instagram.com/caosantto", "_blank")}
+              onClick={() => window.open("https://www.instagram.com/reel/DTN2R5bkQYw/", "_blank")}
             >
               <div className="w-20 h-20 rounded-full bg-primary flex items-center justify-center shadow-glow">
                 <Play className="w-8 h-8 text-primary-foreground ml-1" fill="currentColor" />
