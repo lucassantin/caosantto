@@ -84,7 +84,7 @@ export const AboutSection = () => {
                 <p className="text-3xl font-bold text-primary">500+</p>
                 <p className="text-sm text-muted-foreground">Cães treinados</p>
               </div>
-              <div className="text-center">
+              <div className="text-center whitespace-nowrap">
                 <p className="text-3xl font-bold text-primary">100%</p>
                 <p className="text-sm text-muted-foreground">Dedicação</p>
               </div>

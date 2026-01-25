@@ -108,7 +108,7 @@ export const ServicesSection = () => {
                         href={getWhatsAppLink(siteConfig.whatsappMessages.service(service.title))}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 text-primary font-medium text-sm hover:underline"
+                        className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground font-medium text-sm px-4 py-2 rounded-lg transition-colors shadow-sm"
                         onClick={(e) => e.stopPropagation()}
                       >
                         Quero saber mais
