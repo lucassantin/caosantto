@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { siteConfig } from "@/config/site";
-import logo from "@/assets/logo-caosantto.jpg";
+import logo from "../assets/CÃOSANTTO_MARCA_FINAIS_HORIZONTAL.png";
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
