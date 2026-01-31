@@ -36,10 +36,10 @@ export const HeroSection = () => {
           </motion.span>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-            Responsabilidade, Amor e{" "}
-            <span className="text-primary">Compromisso</span>
+            Para nós, o vínculo entre
+            humanos e cães é
             <br />
-            com seu melhor amigo
+            <span className="text-primary">sagrado</span>
           </h1>
 
           <p className="text-lg md:text-xl text-white/90 max-w-xl mx-auto leading-relaxed">
