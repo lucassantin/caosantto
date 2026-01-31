@@ -6,9 +6,9 @@ import { Heart, Shield, Zap, Users } from "lucide-react";
 const benefits = [
   {
     icon: Heart,
-    title: "Metodologia Positiva",
+    title: "Metodologia Equilibrada",
     description:
-      "Treinamento baseado em reforço positivo, respeitando o bem-estar do seu pet.",
+      "Treinamento baseado em sistema esportivo, respeitando o bem-estar do seu pet.",
   },
   {
     icon: Shield,
@@ -18,9 +18,9 @@ const benefits = [
   },
   {
     icon: Zap,
-    title: "Resultados Rápidos",
+    title: "Resultados Eficazes",
     description:
-      "Metodologia eficiente que traz resultados visíveis em poucas semanas.",
+      "Metodologia eficiente que traz resultados eficazes em poucas semanas.",
   },
   {
     icon: Users,
