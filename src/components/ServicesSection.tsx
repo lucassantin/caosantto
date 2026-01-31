@@ -139,9 +139,9 @@ export const ServicesSection = () => {
             Soluções completas para seu cão
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Do adestramento básico à reabilitação complexa, oferecemos o melhor para o seu parceiro de vida.
+            Na <span className="font-bold text-primary">Cão Santto</span>, cada serviço é planejado para formar cães equilibrados, confiáveis e verdadeiro parceiros de vida<br/>utilizando métodos modernos, personalizados, eficazes e responsáveis.
           </p>
-        </motion.div>
+        </motion.div> 
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {servicesData.map((service, index) => {
