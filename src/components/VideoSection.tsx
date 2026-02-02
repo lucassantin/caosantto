@@ -2,7 +2,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Play, MessageCircle } from "lucide-react";
 import { siteConfig, getWhatsAppLink } from "@/config/site";
-import dog5 from "@/assets/dog-5.png";
+import dog5 from "@/assets/dog8.jpeg";
 
 export const VideoSection = () => {
   const ref = useRef(null);

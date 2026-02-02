@@ -17,8 +17,15 @@ import { siteConfig, getWhatsAppLink } from "@/config/site";
 import dog2 from "@/assets/dog-2.png";
 import dog3 from "@/assets/dog-3.png";
 import dog4 from "@/assets/dog-4.png";
+import dog5 from "@/assets/dog17.jpeg";
+import dog6 from "@/assets/dog6.jpeg";
+import dog7 from "@/assets/dog7.jpeg";
+import dog8 from "@/assets/dog8.jpeg";
+import dog9 from "@/assets/dog9.jpeg";
+import dog10 from "@/assets/dog10.jpeg";
 
-const serviceImages = [dog2, dog3, dog4, dog2, dog3, dog4, dog2, dog3, dog4];
+
+const serviceImages = [dog2, dog3, dog4, dog5, dog6, dog7, dog8, dog9, dog10];
 
 const servicesData = [
   {
