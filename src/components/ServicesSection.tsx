@@ -139,7 +139,7 @@ export const ServicesSection = () => {
             Soluções completas para seu cão
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Na <span className="font-bold text-primary">Cão Santto</span>, cada serviço é planejado para formar cães equilibrados, confiáveis e verdadeiro parceiros de vida<br/>utilizando métodos modernos, personalizados, eficazes e responsáveis.
+            Na <span className="font-bold text-primary">Cão Santto</span>, cada serviço é planejado para formar cães equilibrados, confiáveis e verdadeiro parceiros de vida utilizando métodos modernos, personalizados, eficazes e responsáveis.
           </p>
         </motion.div> 
 
