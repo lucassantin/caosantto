@@ -7,6 +7,7 @@ import { GalleryStrip } from "@/components/GalleryStrip";
 import { VideoSection } from "@/components/VideoSection";
 import { FAQSection } from "@/components/FAQSection";
 import { Footer } from "@/components/Footer";
+import { TestimonialsSection } from "@/components/TestimonialsSection";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <BenefitsSection />
       <AboutSection />
       <ServicesSection />
+      <TestimonialsSection />
       <GalleryStrip />
       <VideoSection />
       <FAQSection />
