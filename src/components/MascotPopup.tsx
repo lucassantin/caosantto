@@ -17,7 +17,7 @@ export const MascotPopup = () => {
 
     const loopTimer = setInterval(() => {
       if (!hasInteracted) setIsVisible(true);
-    }, 1000);
+    }, 30000); 
 
     return () => {
       clearTimeout(initialTimer);
@@ -29,7 +29,7 @@ export const MascotPopup = () => {
     if (isVisible) {
       const hideTimer = setTimeout(() => {
         setIsVisible(false);
-      }, 7500); 
+      }, 8000); 
       return () => clearTimeout(hideTimer);
     }
   }, [isVisible]);
@@ -47,14 +47,13 @@ export const MascotPopup = () => {
 
         const frame = ctx.getImageData(0, 0, canvas.width, canvas.height);
         const data = frame.data;
-        const length = data.length;
 
-        for (let i = 0; i < length; i += 4) {
-          const r = data[i];     
-          const g = data[i + 1]; 
-          const b = data[i + 2]; 
+        for (let i = 0; i < data.length; i += 4) {
+          const r = data[i];     // Red
+          const g = data[i + 1]; // Green
+          const b = data[i + 2]; // Blue
 
-          if (g > 100 && g > r * 1.4 && g > b * 1.4) {
+          if (g > 100 && g > r * 1.35 && g > b * 1.35) {
             data[i + 3] = 0; 
           }
         }
@@ -66,47 +65,54 @@ export const MascotPopup = () => {
         animationFrameId.current = requestAnimationFrame(renderFrame);
       };
 
-      video.play().catch(e => console.log("Erro no autoplay:", e));
+      video.play().catch(e => console.error("Erro no autoplay:", e));
       
-      const onPlay = () => {
+      const setupCanvas = () => {
         canvas.width = video.videoWidth;
         canvas.height = video.videoHeight;
         renderFrame();
       };
 
-      video.addEventListener("play", onPlay);
+      video.addEventListener("loadedmetadata", setupCanvas);
+      video.addEventListener("play", renderFrame);
 
       return () => {
-        video.removeEventListener("play", onPlay);
+        video.removeEventListener("loadedmetadata", setupCanvas);
+        video.removeEventListener("play", renderFrame);
         if (animationFrameId.current) cancelAnimationFrame(animationFrameId.current);
       };
     }
   }, [isVisible]);
 
+  const handleClose = () => {
+    setIsVisible(false);
+    setHasInteracted(true);
+  };
+
   return (
     <AnimatePresence>
       {isVisible && (
         <motion.div
-          initial={{ opacity: 0, y: "100%" }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: "100%" }}
-          transition={{ type: "spring", damping: 20, stiffness: 100 }}
-          className="fixed bottom-4 right-4 z-[9999] md:bottom-8 md:right-8 flex flex-col items-end"
+          initial={{ opacity: 0, y: 50, scale: 0.9 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          exit={{ opacity: 0, y: 50, scale: 0.9 }}
+          className="fixed bottom-0 right-0 z-[9999] md:bottom-6 md:right-6 flex flex-col items-end"
         >
-          <div className="relative w-40 md:w-56 h-auto pointer-events-none">
+          {/* Contêiner do Mascote - Tamanho aumentado aqui */}
+          <div className="relative w-72 md:w-[450px] lg:w-[550px] h-auto pointer-events-none select-none">
             <video
               ref={videoRef}
               src="/mascot-green.mp4" 
               muted
+              loop
               playsInline
               crossOrigin="anonymous"
-              style={{ display: "none" }}
+              className="hidden"
             />
 
             <canvas 
               ref={canvasRef}
-              className="w-full h-full object-contain drop-shadow-2xl"
-              style={{ filter: "drop-shadow(0 4px 6px rgba(0,0,0,0.2))" }}
+              className="w-full h-auto object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.3)]"
             />
           </div>
         </motion.div>
