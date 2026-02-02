@@ -136,10 +136,10 @@ export const ServicesSection = () => {
             Nossos Serviços
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Soluções completas para seu cão
+            Cuidado completo em um só lugar
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Na <span className="font-bold text-primary">Cão Santto</span>, cada serviço é planejado para formar cães equilibrados, confiáveis e verdadeiro parceiros de vida utilizando métodos modernos, personalizados, eficazes e responsáveis.
+            Na <span className="font-bold text-primary">Cão Santto</span>, cada serviço é planejado para formar cães equilibrados, confiáveis e verdadeiro parceiros de vida. 
           </p>
         </motion.div> 
 

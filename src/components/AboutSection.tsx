@@ -57,21 +57,13 @@ export const AboutSection = () => {
             
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Apaixonado por cães desde sempre, Matheus transformou essa paixão 
-                em missão de vida. Com formação especializada em comportamento 
-                canino e anos de experiência prática, ele fundou a Cão Santto para 
-                oferecer um espaço único onde cães são tratados com amor, respeito 
-                e ciência.
+                Apaixonado por cães desde sempre, Matheus transformou essa paixão em missão de vida. Pós-graduado em Cinotecnia, com extensões internacionais em comportamento canino e anos de experiência prática, fundou a Cão Santto para oferecer um espaço único, onde cães são tratados com amor, respeito e ciência.
               </p>
               <p>
-                Na Cão Santto, cada cão é tratado como parte da família. Nosso 
-                método combina técnicas modernas de adestramento positivo com um 
-                ambiente acolhedor, garantindo que seu pet desenvolva todo seu 
-                potencial enquanto se diverte.
+                Na Cão Santto, cada cão é tratado como parte da família. A metodologia combina técnicas modernas de adestramento esportivo, conhecimento técnico aprofundado e um ambiente seguro e acolhedor, garantindo que cada cão desenvolva todo o seu potencial enquanto aprende e se diverte.
               </p>
               <p>
-                O resultado? Cães mais equilibrados, felizes e uma conexão ainda 
-                mais forte entre você e seu melhor amigo.
+                O resultado são cães mais equilibrados, confiáveis, motivados e felizes, fortalecendo ainda mais a conexão entre você e seu melhor amigo.
               </p>
             </div>
 

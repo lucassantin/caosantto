@@ -47,8 +47,7 @@ export const BenefitsSection = () => {
             Por que nos escolher?
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Na Cão Santto, cada detalhe é pensado para proporcionar a melhor
-            experiência para você e seu pet.
+            A Cão Santto é cuidado completo em um só lugar. Adestramento profissional, escola comportamental, gotel educativo e estética animal, tudo pensado para o equilíbrio, bem-estar e qualidade de vida do seu cão.
           </p>
         </motion.div>
 
