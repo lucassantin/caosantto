@@ -13,11 +13,11 @@ export const MascotPopup = () => {
   useEffect(() => {
     const initialTimer = setTimeout(() => {
       if (!hasInteracted) setIsVisible(true);
-    }, 1000);
+    }, 5000);
 
     const loopTimer = setInterval(() => {
       if (!hasInteracted) setIsVisible(true);
-    }, 30000); 
+    }, 120000); 
 
     return () => {
       clearTimeout(initialTimer);
@@ -99,7 +99,7 @@ export const MascotPopup = () => {
           className="fixed bottom-0 right-0 z-[9999] md:bottom-6 md:right-6 flex flex-col items-end"
         >
           {/* Contêiner do Mascote - Tamanho aumentado aqui */}
-          <div className="relative w-72 md:w-[450px] lg:w-[550px] h-auto pointer-events-none select-none">
+          <div className="relative w-64 md:w-[300px] lg:w-[400px] h-auto pointer-events-none select-none">
             <video
               ref={videoRef}
               src="/mascot-green.mp4" 

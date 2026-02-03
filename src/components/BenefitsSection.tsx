@@ -8,25 +8,25 @@ const benefits = [
     icon: Heart,
     title: "Metodologia Equilibrada",
     description:
-      "Treinamento baseado em sistema esportivo, respeitando o bem-estar do seu pet.",
+      "Treinamento estruturado com base em sistemas esportivos, garantindo motivação e respeitando o bem-estar físico e emocional do seu cão.",
   },
   {
     icon: Shield,
     title: "Ambiente Seguro",
     description:
-      "Estrutura completa com monitoramento 24h e equipe preparada para cuidar do seu cão.",
+      "Estrutura completa, com monitoramento 24h e equipe qualificada para oferecer cuidado, segurança e tranquilidade.",
   },
   {
     icon: Zap,
-    title: "Resultados Eficazes",
+    title: "Resultados Comprovados",
     description:
-      "Metodologia eficiente que traz resultados eficazes em poucas semanas.",
+      "Metodologia eficiente que promove mudanças reais de comportamento em poucas semanas.",
   },
   {
     icon: Users,
-    title: "Socialização",
+    title: "Socialização Guiada",
     description:
-      "Seu cão aprende a conviver com outros pets e pessoas de forma saudável.",
+      "Seu cão aprende a conviver de forma saudável e equilibrada com outros cães e pessoas.",
   },
 ];
 
@@ -47,7 +47,7 @@ export const BenefitsSection = () => {
             Por que nos escolher?
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            A Cão Santto é cuidado completo em um só lugar. Adestramento profissional, escola comportamental, gotel educativo e estética animal, tudo pensado para o equilíbrio, bem-estar e qualidade de vida do seu cão.
+            A Cão Santto é solução completa em um só lugar. Cada serviço é pensado de forma integrada para formar cães equilibrados, confiáveis e verdadeiros parceiros de vida, respeitando a natureza do cão e fortalecendo o vínculo com sua família.
           </p>
         </motion.div>
 

@@ -42,8 +42,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-white/90 max-w-xl mx-auto leading-relaxed">
-            Adestramento, hotel educativo e cuidados especializados para o 
-            bem-estar e felicidade do seu cão.
+            Adestramento profissional, escola comportamental, hotel educativo e estética animal, tudo pensado para o equilíbrio, bem-estar e qualidade de vida do seu cão.
           </p>
         </motion.div>
       </div>
