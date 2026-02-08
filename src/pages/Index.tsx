@@ -8,7 +8,7 @@ import { VideoSection } from "@/components/VideoSection";
 import { FAQSection } from "@/components/FAQSection";
 import { Footer } from "@/components/Footer";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
-import { MascotPopup } from "@/components/MascotPopup";
+import { WhatsAppButton } from "@/components/Whatsapp";
 
 const Index = () => {
   return (
@@ -23,7 +23,7 @@ const Index = () => {
       <VideoSection />
       <FAQSection />
       <Footer />
-      <MascotPopup />
+      <WhatsAppButton />
     </main>
   );
 };
