@@ -14,24 +14,23 @@ import {
   HeartHandshake
 } from "lucide-react";
 import { siteConfig, getWhatsAppLink } from "@/config/site";
-import dog2 from "@/assets/dog-2.png";
+import dog2 from "@/assets/dog12.jpeg";
 import dog3 from "@/assets/dog-3.png";
 import dog4 from "@/assets/dog-4.png";
-import dog5 from "@/assets/dog17.jpeg";
+import dog5 from "@/assets/dog20.jpeg";
 import dog6 from "@/assets/dog6.jpeg";
-import dog7 from "@/assets/dog7.jpeg";
+import dog7 from "@/assets/dog2.jpeg";
 import dog8 from "@/assets/dog8.jpeg";
-import dog9 from "@/assets/dog9.jpeg";
-import dog10 from "@/assets/dog10.jpeg";
-
-
-const serviceImages = [dog2, dog3, dog4, dog5, dog6, dog7, dog8, dog9, dog10];
+import dog9 from "@/assets/dog5.jpeg";
+import dog10 from "@/assets/dog19.jpeg";
 
 const servicesData = [
   {
     id: "consulta",
     title: "Consulta Comportamental",
     icon: Brain,
+    image: dog2,
+    imgPos: "object-top", 
     description: "Avaliação on-line detalhada do comportamento do cão e perfil familiar.",
     details: "Inclui diagnóstico comportamental, orientações de manejo e plano de treino personalizado.",
     price: "R$ 200,00",
@@ -41,6 +40,8 @@ const servicesData = [
     id: "mentoria",
     title: "Mentoria Online",
     icon: Video,
+    image: dog3,
+    imgPos: "object-top", 
     description: "Acompanhamento e suporte online exclusivo durante 1 mês.",
     details: "Garante a correta aplicação dos exercícios e ajustes estratégicos. Visita domiciliar (Videira/SC) tem adicional de R$ 150,00.",
     price: "R$ 500,00",
@@ -50,6 +51,8 @@ const servicesData = [
     id: "escola-prata",
     title: "Escola Prata",
     icon: BookOpen,
+    image: dog4,
+    imgPos: "object-top",
     description: "Rotina escolar presencial com atividades físicas, mentais e sociais.",
     details: "Indicada para cães sociáveis. Planos de 1 a 5x na semana.",
     priceList: [
@@ -64,6 +67,8 @@ const servicesData = [
     id: "escola-ouro",
     title: "Escola Ouro",
     icon: GraduationCap,
+    image: dog5,
+    imgPos: "object-top", 
     description: "Adestramento estruturado e socialização controlada (foco em obediência).",
     details: "Foco em bons hábitos e equilíbrio emocional. Planos de 1 a 5x na semana.",
     priceList: [
@@ -78,6 +83,8 @@ const servicesData = [
     id: "intensivo",
     title: "Intensivo (Internato)",
     icon: Trophy,
+    image: dog6,
+    imgPos: "object-top", 
     description: "Programa de 2 meses de imersão hospedada com treinos diários.",
     details: "Focado em controle e modificação comportamental. Inclui aulas presenciais aos sábados para os tutores.",
     price: "R$ 3.000,00",
@@ -87,6 +94,8 @@ const servicesData = [
     id: "trabalho",
     title: "Cães de Trabalho",
     icon: Shield,
+    image: dog7,
+    imgPos: "object-center",
     description: "Formação de cães de proteção pessoal e/ou faro (4 meses de imersão).",
     details: "Para cães >6 meses com intensivo concluído. Treinamento técnico focado em funcionalidade e confiabilidade.",
     price: "R$ 7.000,00",
@@ -96,6 +105,8 @@ const servicesData = [
     id: "reabilitacao",
     title: "Reabilitação Canina",
     icon: Activity,
+    image: dog8,
+    imgPos: "object-top",
     description: "Programa intensivo para cães agressivos ou reativos (2 meses).",
     details: "Controle de gatilhos e dessensibilização. Preços variam por porte:",
     priceList: [
@@ -109,6 +120,8 @@ const servicesData = [
     id: "hotel",
     title: "Hotel Educativo",
     icon: Home,
+    image: dog9,
+    imgPos: "object-top",
     description: "Hospedagem segura com rotina comportamental equilibrada.",
     details: "Recreação dirigida. Avaliação para cães novos: R$ 50,00.",
     price: "R$ 75,00 / dia",
@@ -118,6 +131,8 @@ const servicesData = [
     id: "banho",
     title: "Banho e Tosa",
     icon: Sparkles,
+    image: dog10,
+    imgPos: "object-center",
     description: "Higiene com manejo de baixo estresse.",
     details: "Respeitamos o comportamento e limites de cada cão.",
     price: "Valores sob consulta",
@@ -154,7 +169,6 @@ export const ServicesSection = () => {
           {servicesData.map((service, index) => {
             const Icon = service.icon;
             const isExpanded = expandedId === service.id;
-            const image = serviceImages[index % serviceImages.length];
 
             return (
               <motion.div
@@ -174,12 +188,12 @@ export const ServicesSection = () => {
                   </div>
                 )}
 
-                {/* Image */}
-                <div className="relative h-48 overflow-hidden shrink-0">
+                
+                <div className="relative h-56 overflow-hidden shrink-0">
                   <img
-                    src={image}
+                    src={service.image}
                     alt={service.title}
-                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                    className={`w-full h-full object-cover transition-transform duration-500 hover:scale-110 ${service.imgPos}`}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                   <div className="absolute bottom-4 left-4 flex items-center gap-3">
