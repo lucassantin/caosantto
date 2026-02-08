@@ -38,7 +38,7 @@ export const HeroSection = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
             Para nós, o vínculo entre
             humanos e cães é{" "}
-            <span className="text-primary">sagrado</span>
+            <span className="text-[#4d7c05] font-extrabold">SAGRADO</span>
           </h1>
 
           <p className="text-lg md:text-xl text-white/90 max-w-xl mx-auto leading-relaxed">
