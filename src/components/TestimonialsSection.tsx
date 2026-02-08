@@ -6,22 +6,22 @@ const testimonials = [
   {
     id: 1,
     name: "Ana Júlia Corrêa",
-    role: "Tutora do Thor, Luna, Nala e Mel",
+    role: "Tutora da Jessie, Olívia, Hermione e Scooby",
     content: "Excelente trabalho! Meus 4 cães estão sendo adestrados e definitivamente não são mais os mesmos. Mateus é um excelente profissional, respeitoso e sempre muito solícito. Recomendo de olhos de fechados :)",
     rating: 5,
   },
   {
     id: 2,
     name: "Marana baseggio",
-    role: "Tutora da flor",
+    role: "Tutora da Zoe",
     content: "ótimo profissional, trabalho responsável com os cães, orientação assertiva em todos os comportamentos. Super indico este profissional. Não só a ética mas também o grande amor e carinho com os animais é visível e faz toda diferença no trabalho.",
     rating: 5,
   },
   {
     id: 3,
-    name: "Jordana Meneguzzi",
-    role: "Tutora do Macuquin",
-    content: "Eu e o Macuquin adquirimos muito conhecimento durante o processo! Macuquin está muito bem condicionado em todos os sentidos! Amamos o Matheus, a Mauí e a Ísis! O lugar é incrível!",
+    name: "Ale Ballardin",
+    role: "Tutora da Roma",
+    content: "O treinamento intensivo da Roma foi excepcional. Matheus ensinou, não só a Roma, e sim toda a familia. Aprendemos muito e seguimos treinando, todos os dias. Como ele mesmo nos disse, que 'não existe cão adestrado, existe cão em treinamento'",
     rating: 5,
   }
 ];
