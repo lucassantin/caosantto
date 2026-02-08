@@ -26,7 +26,6 @@ export const WhatsAppButton = () => {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
       >
-        {/* Ícone SVG do WhatsApp */}
         <svg
           viewBox="0 0 24 24"
           className="h-8 w-8 fill-current"
