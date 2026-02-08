@@ -31,20 +31,20 @@ const servicesData = [
     icon: Brain,
     image: dog2,
     imgPos: "object-top", 
-    description: "Avaliação on-line detalhada do comportamento do cão e perfil familiar.",
-    details: "Inclui diagnóstico comportamental, orientações de manejo e plano de treino personalizado.",
-    price: "R$ 200,00",
+    description: "Análise do comportamento e rotina familiar, com orientações práticas.",
+    details: "Inclui diagnóstico, manejo e exercícios personalizados. Opção online ou presencial.",
+    price: "R$ 200,00", // Valor fixo
     highlight: false
   },
   {
     id: "mentoria",
-    title: "Mentoria Online",
+    title: "Mentoria",
     icon: Video,
     image: dog3,
     imgPos: "object-top", 
-    description: "Acompanhamento e suporte online exclusivo durante 1 mês.",
-    details: "Garante a correta aplicação dos exercícios e ajustes estratégicos. Visita domiciliar (Videira/SC) tem adicional de R$ 150,00.",
-    price: "R$ 500,00",
+    description: "Treine seu cão em casa com acompanhamento profissional mensal.",
+    details: "Suporte online para garantir a correta aplicação dos exercícios. Visita domiciliar opcional.",
+    price: "A partir de R$ 500,00", // Menor valor (Online)
     highlight: false
   },
   {
@@ -53,14 +53,9 @@ const servicesData = [
     icon: BookOpen,
     image: dog4,
     imgPos: "object-top",
-    description: "Rotina escolar presencial com atividades físicas, mentais e sociais.",
-    details: "Indicada para cães sociáveis. Planos de 1 a 5x na semana.",
-    priceList: [
-      "1x/semana: R$ 280,00/mês",
-      "2x/semana: R$ 350,00/mês",
-      "3x/semana: R$ 420,00/mês",
-      "5x/semana: R$ 700,00/mês"
-    ],
+    description: "Rotina escolar mensal presencial com atividades físicas, mentais e sociais.",
+    details: "Mantém o cão ativo e equilibrado. Planos de 1 a 5x na semana.",
+    price: "A partir de R$ 280,00/mês", // Menor valor (1x na semana)
     highlight: false
   },
   {
@@ -69,14 +64,9 @@ const servicesData = [
     icon: GraduationCap,
     image: dog5,
     imgPos: "object-top", 
-    description: "Adestramento estruturado e socialização controlada (foco em obediência).",
-    details: "Foco em bons hábitos e equilíbrio emocional. Planos de 1 a 5x na semana.",
-    priceList: [
-      "1x/semana: R$ 400,00/mês",
-      "2x/semana: R$ 500,00/mês",
-      "3x/semana: R$ 600,00/mês",
-      "5x/semana: R$ 1.000,00/mês"
-    ],
+    description: "Rotina escolar com adestramento personalizado e socialização guiada.",
+    details: "Foco em obediência, bons hábitos e equilíbrio emocional. Planos de 1 a 5x na semana.",
+    price: "A partir de R$ 400,00/mês", // Menor valor (1x na semana)
     highlight: true 
   },
   {
@@ -85,9 +75,9 @@ const servicesData = [
     icon: Trophy,
     image: dog6,
     imgPos: "object-top", 
-    description: "Programa de 2 meses de imersão hospedada com treinos diários.",
+    description: "2 meses de imersão hospedada com treinos diários de obediência.",
     details: "Focado em controle e modificação comportamental. Inclui aulas presenciais aos sábados para os tutores.",
-    price: "R$ 3.000,00",
+    price: "R$ 3.000,00", // Valor fixo
     highlight: false
   },
   {
@@ -96,9 +86,9 @@ const servicesData = [
     icon: Shield,
     image: dog7,
     imgPos: "object-center",
-    description: "Formação de cães de proteção pessoal e/ou faro (4 meses de imersão).",
-    details: "Para cães >6 meses com intensivo concluído. Treinamento técnico focado em funcionalidade e confiabilidade.",
-    price: "R$ 7.000,00",
+    description: "Formação avançada de proteção e/ou faro (4 meses de imersão).",
+    details: "Exclusivo para cães com genética apta que concluíram o intensivo. Treinamento técnico funcional.",
+    price: "R$ 7.000,00", // Valor fixo
     highlight: false
   },
   {
@@ -108,12 +98,8 @@ const servicesData = [
     image: dog8,
     imgPos: "object-top",
     description: "Programa intensivo para cães agressivos ou reativos (2 meses).",
-    details: "Controle de gatilhos e dessensibilização. Preços variam por porte:",
-    priceList: [
-      "Pequeno: R$ 4.000,00",
-      "Médio: R$ 6.000,00",
-      "Grande: R$ 9.000,00"
-    ],
+    details: "Controle de gatilhos, dessensibilização e socialização progressiva. Aulas aos sábados para tutores.",
+    price: "A partir de R$ 4.000,00", // Menor valor (Pequeno porte)
     highlight: false
   },
   {
@@ -122,19 +108,19 @@ const servicesData = [
     icon: Home,
     image: dog9,
     imgPos: "object-top",
-    description: "Hospedagem segura com rotina comportamental equilibrada.",
-    details: "Recreação dirigida. Avaliação para cães novos: R$ 50,00.",
-    price: "R$ 75,00 / dia",
+    description: "Hospedagem segura com rotina comportamental e recreação dirigida.",
+    details: "Avaliação comportamental para cães novos: R$ 50,00. Pacotes especiais para feriados.",
+    price: "R$ 75,00 / dia", // Valor da diária
     highlight: false
   },
   {
     id: "banho",
-    title: "Banho e Tosa",
+    title: "Estética Animal", // Atualizado de "Banho e Tosa"
     icon: Sparkles,
     image: dog10,
     imgPos: "object-center",
-    description: "Higiene com manejo de baixo estresse.",
-    details: "Respeitamos o comportamento e limites de cada cão.",
+    description: "Banho e tosa com manejo de baixo estresse.",
+    details: "Respeitamos o comportamento e os limites de cada cão.",
     price: "Valores sob consulta",
     highlight: false
   }
@@ -188,7 +174,7 @@ export const ServicesSection = () => {
                   </div>
                 )}
 
-                
+                {/* Image Container */}
                 <div className="relative h-56 overflow-hidden shrink-0">
                   <img
                     src={service.image}
@@ -223,23 +209,10 @@ export const ServicesSection = () => {
                       <div className="pt-4 border-t border-border">
                         <p className="text-sm text-foreground mb-4 font-medium">{service.details}</p>
                         
-                        {/* Render Price List OR Single Price */}
-                        {service.priceList ? (
-                          <ul className="mb-4 space-y-1">
-                            {service.priceList.map((priceItem, idx) => (
-                              <li key={idx} className="text-sm text-primary font-semibold flex items-center gap-2">
-                                <span className="w-1.5 h-1.5 rounded-full bg-primary/60" />
-                                {priceItem}
-                              </li>
-                            ))}
-                          </ul>
-                        ) : (
-                          service.price && (
-                            <p className="text-xl font-bold text-primary mb-4">
-                              {service.price}
-                            </p>
-                          )
-                        )}
+                        {/* Exibe o preço único formatado */}
+                        <p className="text-xl font-bold text-primary mb-4">
+                          {service.price}
+                        </p>
 
                         <a
                           href={getWhatsAppLink(`Olá! Gostaria de saber mais sobre o serviço de *${service.title}*.`)}
