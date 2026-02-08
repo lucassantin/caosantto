@@ -77,7 +77,7 @@ export const VideoSection = () => {
             className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-8 py-4 rounded-full text-lg font-semibold shadow-glow animate-pulse-soft"
           >
             <MessageCircle className="w-6 h-6" />
-            Agendar Avaliação no WhatsApp
+            Entre em contato
           </motion.a>
           <p className="mt-4 text-muted-foreground text-sm">
             Resposta rápida • Atendimento personalizado
