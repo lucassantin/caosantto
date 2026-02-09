@@ -69,7 +69,7 @@ const servicesData = [
     id: "intensivo",
     title: "Intensivo",
     icon: Trophy,
-    image: dog6,
+    image: dog9,
     imgPos: "object-top", 
     details: "Programa intensivo de obediência em nosso centro de treinamento, com 2 meses de imersão hospedada e treinos diários focados em controle e modificação comportamental. Os responsáveis participam de aulas presenciais todos os sábados, garantindo entendimento completo do processo.",
     price: "R$ 3.000,00", // Valor fixo
@@ -99,7 +99,7 @@ const servicesData = [
     id: "hotel",
     title: "Hotel Educativo",
     icon: Home,
-    image: dog9,
+    image: dog6,
     imgPos: "object-top",
     details: "Hospedagem segura e supervisionada, com rotina comportamental equilibrada, recreação dirigida e socialização guiada.",
     price: "R$ 75,00 / dia", // Valor da diária
