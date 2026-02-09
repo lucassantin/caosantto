@@ -110,7 +110,7 @@ const servicesData = [
     title: "Estética Animal", // Atualizado de "Banho e Tosa"
     icon: Sparkles,
     image: dog2,
-    imgPos: "object-center",
+    imgPos: "object-top",
     details: "Banho e tosa com manejo de baixo estresse, respeitando o comportamento e os limites de cada cão.",
     price: "Valores sob consulta",
     highlight: false
