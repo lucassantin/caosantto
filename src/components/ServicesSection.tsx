@@ -20,7 +20,7 @@ import dog4 from "@/assets/dog-4.png";
 import dog5 from "@/assets/dog20.jpeg";
 import dog6 from "@/assets/dog6.jpeg";
 import dog7 from "@/assets/dog2.jpeg";
-import dog8 from "@/assets/dog8.jpeg";
+import dog8 from "@/assets/reabilitação.jpeg";
 import dog9 from "@/assets/dog5.jpeg";
 import dog10 from "@/assets/dog19.jpeg";
 
