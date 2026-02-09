@@ -77,7 +77,7 @@ const servicesData = [
   },
   {
     id: "trabalho",
-    title: "FORMAÇÃO DE CÃES DE TRABALHO",
+    title: "Formação de Cães de Trabalho",
     icon: Shield,
     image: dog7,
     imgPos: "object-center",
