@@ -29,7 +29,7 @@ const servicesData = [
     id: "consulta",
     title: "Consulta Comportamental",
     icon: Brain,
-    image: dog2,
+    image: dog10,
     imgPos: "object-top", 
     details: "Análise do comportamento do(s) cão(s) e da rotina familiar, com orientações práticas de manejo e exercícios personalizados para cada objetivo.",
     price: "A partir de R$ 200,00", // Valor fixo
@@ -109,7 +109,7 @@ const servicesData = [
     id: "banho",
     title: "Estética Animal", // Atualizado de "Banho e Tosa"
     icon: Sparkles,
-    image: dog10,
+    image: dog2,
     imgPos: "object-center",
     details: "Banho e tosa com manejo de baixo estresse, respeitando o comportamento e os limites de cada cão.",
     price: "Valores sob consulta",
