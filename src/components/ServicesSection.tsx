@@ -77,7 +77,7 @@ const servicesData = [
   },
   {
     id: "trabalho",
-    title: "FORMAÇÃO DE CÃES DE TRABALHO – PROTEÇÃO E/OU FARO",
+    title: "FORMAÇÃO DE CÃES DE TRABALHO",
     icon: Shield,
     image: dog7,
     imgPos: "object-center",
