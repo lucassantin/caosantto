@@ -70,14 +70,14 @@ export const AboutSection = () => {
             <div className="mt-8 grid grid-cols-3 gap-2 md:flex md:gap-6">
               
               <div className="text-center">
-                <p className="text-xl md:text-3xl font-bold text-primary">5+</p>
+                <p className="text-xl md:text-3xl font-bold text-primary">10+</p>
                 <p className="text-xs md:text-sm text-muted-foreground leading-tight">
                   Anos de experiência
                 </p>
               </div>
 
               <div className="text-center">
-                <p className="text-xl md:text-3xl font-bold text-primary">500+</p>
+                <p className="text-xl md:text-3xl font-bold text-primary">1000+</p>
                 <p className="text-xs md:text-sm text-muted-foreground leading-tight">
                   Cães treinados
                 </p>
