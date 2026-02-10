@@ -37,7 +37,7 @@ export const AboutSection = () => {
                 transition={{ delay: 0.5, duration: 0.4 }}
                 className="absolute -bottom-4 -right-4 md:-right-8 bg-primary text-primary-foreground px-6 py-3 rounded-xl shadow-glow"
               >
-                <span className="text-sm font-semibold">+500 cães treinados</span>
+                <span className="text-sm font-semibold">+1000 cães treinados</span>
               </motion.div>
             </div>
           </motion.div>
