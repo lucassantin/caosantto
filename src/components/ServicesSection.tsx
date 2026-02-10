@@ -31,7 +31,7 @@ const servicesData = [
     icon: Brain,
     image: dog10,
     imgPos: "object-top", 
-    details: "Análise do comportamento do(s) cão(s) e da rotina familiar, com orientações práticas de manejo e exercícios personalizados para cada objetivo.",
+    details: "Análise do comportamento e da rotina familiar, com orientações práticas de manejo e exercícios personalizados para cada objetivo.",
     price: "A partir de R$ 200,00", // Valor fixo
     highlight: false
   },
@@ -41,7 +41,7 @@ const servicesData = [
     icon: Video,
     image: dog3,
     imgPos: "object-top", 
-    details: "Treine seu cão em casa com acompanhamento profissional mensal e veja a evolução real por meio da correta aplicação dos exercícios.",
+    details: "Treine em casa com acompanhamento profissional mensal e veja a evolução real por meio da correta aplicação dos exercícios.",
     price: "A partir de R$ 500,00", // Menor valor (Online)
     highlight: false
   },
@@ -77,11 +77,11 @@ const servicesData = [
   },
   {
     id: "trabalho",
-    title: "Formação de Cães de Trabalho",
+    title: "Cães de Trabalho",
     icon: Shield,
     image: dog7,
     imgPos: "object-center",
-    details: "Programa avançado para formação de cães de trabalho em nosso centro de treinamento, com 4 meses de imersão hospedada, voltado à proteção, guarda e/ou faro. Exclusivo para cães que tenham concluído o programa intensivo e apresentem genética apta. Os responsáveis participam de aulas presenciais todos os sábados, garantindo entendimento completo do processo.",
+    details: "Programa avançado para formação de cães de trabalho em nosso centro de treinamento, com 4 meses de imersão hospedada, voltados à proteção, guarda e faro. Exclusivo para cães que tenham concluído o programa intensivo e apresentem genética apta. Os responsáveis participam de aulas presenciais todos os sábados, garantindo entendimento completo do processo.",
     price: "R$ 7.000,00", // Valor fixo
     highlight: false
   },

@@ -10,11 +10,13 @@ export const siteConfig = {
   // Address
   address: {
     street: "Rua 10 de Setembro, 2049",
-    neighborhood: "Universitário",
+    neighborhood: "Bairro Universitário",
     city: "Videira",
     state: "SC",
     full: "Rua 10 de Setembro, 2049, Universitário, Videira - SC",
   },
+
+  workingHours: "Seg–Sex: 7h às 19h | Sáb: 7h às 12h",
   
   // Social
   instagram: "https://instagram.com/caosantto",
@@ -94,16 +96,20 @@ export const siteConfig = {
       answer: "Estamos localizados na Rua 10 de Setembro, 2049, no bairro Universitário, em Videira - SC.",
     },
     {
-      question: "Quais vacinas meu cão precisa ter?",
-      answer: "Para utilizar nossos serviços, seu cão precisa estar com a vacina antirrábica e a V8/V10 em dia. Também recomendamos a vacina contra gripe canina.",
+      question: "Quais vacinas e cuidados são exigidos?",
+      answer: "Para utilizar nosso espaço, o cão deve estar com a vacina antirrábica e a vacina polivalente (V8 ou V10) em dia, além de vermifugação e controle de pulgas e carrapatos atualizados, com comprovação assinada por médico-veterinário (CRMV). Recomendamos também a vacina contra a gripe canina.",
     },
     {
       question: "Qual o horário de funcionamento?",
-      answer: "Funcionamos de segunda a sábado, das 7h às 19h. Para o hotel, recebemos e entregamos pets apenas nesses horários.",
+      answer: "Funcionamos de segunda a sexta, das 7h às 19h, e aos sábados, das 7h às 12h. Para o serviço de hotel, recebemos e entregamos pets fora desses horários, mediante cobrança da diária correspondente.",
     },
     {
-      question: "Como funciona o Hotel Educativo?",
-      answer: "Seu cão ficará hospedado conosco participando de atividades educativas, socialização e passeios. Enviamos fotos e vídeos diários pelo WhatsApp.",
+      question: "O adestramento é pra todas as idades?",
+      answer: "Sim. Nossa metodologia é baseada em reforço positivo e é indicada para cães de todas as idades.",
+    },
+    {
+      question: "Como funciona o acompanhamento do adestramento?",
+      answer: "O acompanhamento é contínuo e transparente. Criamos um grupo exclusivo no WhatsApp, onde compartilhamos vídeos, orientações e atualizações sobre a evolução do cão ao longo do processo. Nos regimes de adestramento hospedado, além do grupo, realizamos aulas presenciais todos os sábados para a instrução da família.",
     },
     {
       question: "Posso acompanhar meu cão durante a hospedagem?",

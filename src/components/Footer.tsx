@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { MapPin, Phone, Instagram, MessageCircle, Heart } from "lucide-react";
+import { MapPin, Phone, Instagram, MessageCircle, Heart, Clock } from "lucide-react";
 import { siteConfig, getWhatsAppLink } from "@/config/site";
 import logo from "@/assets/logo-caosantto.jpg";
 
@@ -33,19 +33,6 @@ export const Footer = () => {
       <div className="section-padding">
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-            {/* Logo & Description */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.6 }}
-              className="lg:col-span-2"
-            >
-              <p className="text-background/70 leading-relaxed max-w-sm">
-                Adestramento, hotel educativo e cuidados especializados para 
-                transformar a vida do seu cão com amor e ciência.
-              </p>
-            </motion.div>
-
             {/* Contact Info */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -103,6 +90,20 @@ export const Footer = () => {
                   {siteConfig.address.neighborhood}
                   <br />
                   {siteConfig.address.city} - {siteConfig.address.state}
+                </address>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
+              <h4 className="font-semibold mb-4 text-lg">Horário de funcionamento</h4>
+              <div className="flex items-start gap-3 text-background/70">
+                <Clock className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <address className="not-italic leading-relaxed">
+                  {siteConfig.workingHours}
                 </address>
               </div>
             </motion.div>
