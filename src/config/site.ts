@@ -97,7 +97,7 @@ export const siteConfig = {
     },
     {
       question: "Quais vacinas e cuidados são exigidos?",
-      answer: "Para utilizar nosso espaço, o cão deve estar com a vacina antirrábica e a vacina polivalente (V8 ou V10) em dia, além de vermifugação e controle de pulgas e carrapatos atualizados, com comprovação assinada por médico-veterinário (CRMV). Recomendamos também a vacina contra a gripe canina.",
+      answer: "Para utilizar nosso espaço, o cão deve estar com a vacina antirrábica e a vacina polivalente (V8 ou V10) em dia, além de vermifugação e controle de pulgas e carrapatos atualizados, com comprovação assinada por médico veterinário com registro no Conselho Regional de Medicina Veterinária (CRMV). Recomendamos também a vacina contra a gripe canina.",
     },
     {
       question: "Qual o horário de funcionamento?",

@@ -102,7 +102,7 @@ const servicesData = [
     image: dog6,
     imgPos: "object-top",
     details: "Hospedagem segura e supervisionada, com rotina comportamental equilibrada, recreação dirigida e socialização guiada.",
-    price: "R$ 75,00 / dia", // Valor da diária
+    price: "Diárias por R$ 75,00", // Valor da diária
     highlight: false
   },
   {
@@ -112,7 +112,7 @@ const servicesData = [
     image: dog2,
     imgPos: "object-top",
     details: "Banho e tosa com manejo de baixo estresse, respeitando o comportamento e os limites de cada cão.",
-    price: "Valores sob consulta",
+    price: "Apartir de R$ 50,00", // Valor fixo
     highlight: false
   }
 ];

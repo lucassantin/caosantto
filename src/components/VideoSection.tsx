@@ -24,7 +24,7 @@ export const VideoSection = () => {
             Veja a transformação na prática
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Acompanhe o progresso dos nossos alunos e veja como a metodologia 
+            Acompanhe o progresso dos nossos alunos e veja como a
             Cão Santto faz a diferença.
           </p>
         </motion.div>
