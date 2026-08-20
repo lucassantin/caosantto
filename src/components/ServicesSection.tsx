@@ -71,18 +71,18 @@ const servicesData = [
     icon: Trophy,
     image: dog9,
     imgPos: "object-top", 
-    details: "Programa intensivo de obediência em nosso centro de treinamento, com 2 meses de imersão hospedada e treinos diários focados em controle e modificação comportamental. Os responsáveis participam de aulas presenciais todos os sábados, garantindo entendimento completo do processo.",
-    price: "R$ 3.000,00", // Valor fixo
+    details: "Programa intensivo de obediência em nosso centro de treinamento, com 2 meses de imersão hospedada e treinos diários focados em controle e modificação comportamental. Os responsáveis participam de aulas presenciais aos sábados, garantindo entendimento completo do processo.",
+    price: "R$ 4.000,00", // Valor fixo
     highlight: false
   },
   {
     id: "trabalho",
-    title: "Cães de Trabalho",
+    title: "Anjo da Guarda",
     icon: Shield,
     image: dog7,
     imgPos: "object-center",
-    details: "Programa avançado para formação de cães de trabalho em nosso centro de treinamento, com 4 meses de imersão hospedada, voltados à proteção, guarda e faro. Exclusivo para cães que tenham concluído o programa intensivo e apresentem genética apta. Os responsáveis participam de aulas presenciais todos os sábados, garantindo entendimento completo do processo.",
-    price: "R$ 7.000,00", // Valor fixo
+    details: "Programa avançado para formação de cães de trabalho em nosso centro de treinamento, com 2 meses de imersão hospedada, voltados à guarda e proteção familiar. Exclusivo para cães que tenham concluído o programa intensivo e apresentem genética apta.Os responsáveis participam de aulas presenciais aos sábados, garantindo entendimento completo do processo.",
+    price: "R$ 8.000,00", // Valor fixo
     highlight: false
   },
   {
